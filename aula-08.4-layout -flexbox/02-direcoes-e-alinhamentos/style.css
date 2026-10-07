@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    height: 150px;
+    height: 250px;
     padding: 20px;
     background-color: #30302e;
     justify-content: space-around;
@@ -49,14 +49,21 @@
     width: 100px;
     background-color: #8cc9e4;
 }
-/* 
-.row-center1{
+ 
+.row-left{
     flex-direction: row;
-    justify-content: left;
-    align-items: top    ;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .cardMenor{
-    width: 150px;
+    width: 50px;
+    height: 50px;
     background-color: #8cc9e4;
-} */
+} 
+
+.row-end{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
