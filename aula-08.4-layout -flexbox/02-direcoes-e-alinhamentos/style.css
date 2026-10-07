@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    height: 250px;
+    height: 150px;
     padding: 20px;
     background-color: #30302e;
     justify-content: space-around;
@@ -12,6 +12,7 @@
     padding: 20px;
     margin: 5px;
     color: #30302e;
+
 }
 .row-center{
     flex-direction: row;
@@ -46,5 +47,16 @@
 
 .cardMaior{
     width: 100px;
+    background-color: #8cc9e4;
+}
+/* 
+.row-center1{
+    flex-direction: row;
+    justify-content: left;
+    align-items: top    ;
 }
 
+.cardMenor{
+    width: 150px;
+    background-color: #8cc9e4;
+} */
