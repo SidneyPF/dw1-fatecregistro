@@ -93,6 +93,18 @@ body {
     background-color: #b38b5a;
 }
 
+.produtos{
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.section-title{
+    text-align:center;
+    font-size: 2.5rem;
+    margin-bottom:3rem ;
+    color: #2c1810;
+    }
+                            
 .cards {
     display: flex;
     justify-content: space-between;
